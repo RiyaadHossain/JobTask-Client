@@ -1,7 +1,11 @@
 .section {
-  @apply text-center py-16;
+  @apply text-center py-16 px-5 md:px-8;
 }
 
 .section-title {
-  @apply text-3xl font-bold mb-5;
+  @apply text-3xl font-bold mb-10;
+}
+
+.card-parent {
+  @apply flex flex-wrap items-center justify-center gap-6;
 }
