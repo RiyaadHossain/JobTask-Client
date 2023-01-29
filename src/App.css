@@ -1,0 +1,7 @@
+.section {
+  @apply text-center py-16;
+}
+
+.section-title {
+  @apply text-3xl font-bold mb-5;
+}
