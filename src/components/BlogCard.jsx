@@ -1,6 +1,7 @@
 import React from "react";
 import { BsFillPersonFill } from "react-icons/bs";
 import { BiTime } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 export default function BlogCard({
   blog: { title, description, readers, image, upload },
@@ -15,16 +16,18 @@ export default function BlogCard({
         <div className="flex justify-between">
           <div className="flex font-semibold items-center gap-2">
             {readers}k
-            <BsFillPersonFill className="text-lg"/>
+            <BsFillPersonFill className="text-lg" />
           </div>
           <div className="flex font-semibold items-center gap-2">
             {upload}
-            <BiTime className="text-lg"/>
+            <BiTime className="text-lg" />
           </div>
         </div>
         <p className=" mt-5">
           {description.slice(0, 150)}...{" "}
-          <span className="link link-secondary">See More</span>
+          <Link to="blog-details" className="link link-secondary">
+            See More
+          </Link>
         </p>
       </div>
     </div>

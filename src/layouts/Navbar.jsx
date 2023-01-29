@@ -27,13 +27,16 @@ export default function Navbar() {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li className="font-semibold">
-              <Link to="/">Item 1</Link>
+              <Link to="/">Home</Link>
             </li>
             <li className="font-semibold">
-              <Link to="/">Item 2</Link>
+              <Link to="/job-test">Job Test</Link>
             </li>
             <li className="font-semibold">
-              <Link to="/">Item 3</Link>
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li className="font-semibold">
+              <Link to="/about">About</Link>
             </li>
           </ul>
         </div>
@@ -44,13 +47,16 @@ export default function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li className="font-semibold">
-            <Link to="/">Item 1</Link>
+            <Link to="/">Home</Link>
           </li>
           <li className="font-semibold">
-            <Link to="/">Item 2</Link>
+            <Link to="/job-test">Job Test</Link>
           </li>
           <li className="font-semibold">
-            <Link to="/">Item 3</Link>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li className="font-semibold">
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </div>
