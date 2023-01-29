@@ -1,7 +1,10 @@
 import React from "react";
 import Banner from "./Banner";
+import Blogs from "./Blogs";
 import Courses from "./Courses";
+import FAQ from "./FAQ";
 import Feature from "./Feature";
+import Statictics from "./Statictics";
 import Testimonials from "./Testimonials";
 
 export default function Home() {
@@ -9,8 +12,11 @@ export default function Home() {
     <>
       <Banner />
       <Feature />
-      <Courses/>
+      <Courses />
+      <Statictics />
       <Testimonials />
+      <Blogs />
+      <FAQ />
     </>
   );
 }
